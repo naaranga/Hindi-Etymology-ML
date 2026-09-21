@@ -496,7 +496,7 @@
 तन|Proto-Indo-European
 मनुष्य|Sanskrit
 असत्य|Sanskrit
-झू�|Sanskrit
+झू�|Sanskrit
 चेतना|Sanskrit
 चेतना|Sanskrit
 बाप|Sauraseni Prakrit
@@ -600,8 +600,8 @@
 चार|Sanskrit
 चार|Proto-Indo-Iranian
 चार|Proto-Indo-European
-आ�|Sanskrit
-आ�|Proto-Indo-European
+आ�|Sanskrit
+आ�|Proto-Indo-European
 सात|Old Hindi
 सात|Sanskrit
 सात|Proto-Indo-Aryan
@@ -643,7 +643,7 @@
 बीस|Proto-Indo-Iranian
 बीस|Proto-Indo-European
 अस्सी|Sanskrit
-सा�|Sanskrit
+सा�|Sanskrit
 सत्तर|Sanskrit
 हज़ार|Persian
 हज़ार|Middle Persian
@@ -1233,7 +1233,7 @@
 ख़ुदा|Urdu
 चांद|Sanskrit
 चाक़ू|Persian
-म�|Sanskrit
+म�|Sanskrit
 भरना|Sauraseni Prakrit
 भरना|Sanskrit
 भरना|Proto-Indo-Iranian
@@ -1665,14 +1665,14 @@
 छप्पन|Sanskrit
 सत्तावन|Sanskrit
 अट्ठावन|Sanskrit
-उनस�|Sanskrit
-बास�|Sanskrit
-इकस�|Sanskrit
-तिरस�|Sanskrit
-चौंस�|Sanskrit
-पैंस�|Sanskrit
-छियास�|Sanskrit
-अड़स�|Sanskrit
+उनस�|Sanskrit
+बास�|Sanskrit
+इकस�|Sanskrit
+तिरस�|Sanskrit
+चौंस�|Sanskrit
+पैंस�|Sanskrit
+छियास�|Sanskrit
+अड़स�|Sanskrit
 उनहत्तर|Sanskrit
 इकहत्तर|Sanskrit
 तिहत्तर|Sanskrit
@@ -1700,7 +1700,7 @@
 सत्तानवे|Sanskrit
 अट्ठानवे|Sanskrit
 निन्यानवे|Sanskrit
-सड़स�|Sanskrit
+सड़स�|Sanskrit
 अंटार्कटिका|English
 पत्थर|Sanskrit
 लोमड़ी|Sanskrit
@@ -1775,7 +1775,7 @@
 लघु|Sanskrit
 लघु|Proto-Indo-European
 उद्र|Sanskrit
-पा�|Sanskrit
+पा�|Sanskrit
 देवनागरी|Sanskrit
 स्वर|Sanskrit
 नगर|Sanskrit
@@ -1896,7 +1896,7 @@
 मनु|Sanskrit
 मास|Sauraseni Prakrit
 मास|Sanskrit
-पृष्�|Sanskrit
+पृष्�|Sanskrit
 राम|Sanskrit
 शिव|Sanskrit
 राज्य|Sanskrit
@@ -2089,7 +2089,7 @@
 लोकतंत्र|Classical Sanskrit
 विकास|Sanskrit
 आज़र्बैजान|Arabic
-कं�|Sanskrit
+कं�|Sanskrit
 शराब|Persian
 शराब|Arabic
 बियर|English
@@ -2504,9 +2504,9 @@
 तीखा|Sauraseni Prakrit
 तीखा|Sanskrit
 तीखा|Proto-Indo-European
-पी�|Sanskrit
-पी�|Sauraseni Prakrit
-पी�|Sanskrit
+पी�|Sanskrit
+पी�|Sauraseni Prakrit
+पी�|Sanskrit
 सींग|Sauraseni Prakrit
 सींग|Sanskrit
 सींग|Proto-Indo-Iranian
@@ -2551,8 +2551,8 @@
 फेंकना|Sanskrit
 फीका|Ashokan Prakrit
 गाउँ|Sanskrit
-हों�|Sauraseni Prakrit
-हों�|Sanskrit
+हों�|Sauraseni Prakrit
+हों�|Sanskrit
 ख़तरनाक|Persian
 आख़िरत|Arabic
 टूटना|Sauraseni Prakrit
@@ -3156,7 +3156,7 @@
 न्याय|Sanskrit
 रूठा|Sauraseni Prakrit
 रूठा|Sanskrit
-ढी�|Sanskrit
+ढी�|Sanskrit
 शव|Sanskrit
 पथ|Sanskrit
 पथ|Proto-Indo-Aryan
@@ -4219,7 +4219,7 @@
 तारीफ़|Arabic
 आख़िरी|Persian
 आख़िरी|Arabic
-जालपृष्�|Sanskrit
+जालपृष्�|Sanskrit
 नेवला|Sanskrit
 नैना|Sanskrit
 नुसख़ा|Persian
@@ -4547,7 +4547,7 @@
 संदल|Arabic
 संदल|Middle Persian
 संदल|Sanskrit
-श्रेष्�|Sanskrit
+श्रेष्�|Sanskrit
 लाजवर्द|Persian
 नॉर्वे|English
 शंख|Sanskrit
@@ -4791,8 +4791,8 @@
 भुगतना|Sanskrit
 -कारक|Sanskrit
 चिकित्सा|Sanskrit
-ला�|Sauraseni Prakrit
-ला�|Sanskrit
+ला�|Sauraseni Prakrit
+ला�|Sanskrit
 लाट|Bengali
 लाट|English
 भुट्टा|Sanskrit
@@ -4968,7 +4968,7 @@
 भिखारी|Sauraseni Prakrit
 भिखारी|Sanskrit
 तिलक|Sanskrit
-वैकुं�|Sanskrit
+वैकुं�|Sanskrit
 खाट|Sauraseni Prakrit
 खाट|Sanskrit
 आधारित|Sanskrit
@@ -5140,8 +5140,8 @@
 विवाद|Sanskrit
 अमेरिकन|English
 तकरार|Arabic
-का�|Sauraseni Prakrit
-का�|Sanskrit
+का�|Sauraseni Prakrit
+का�|Sanskrit
 उजाला|Sauraseni Prakrit
 उजाला|Sanskrit
 ताल|Sanskrit
@@ -5165,7 +5165,7 @@
 अली|Arabic
 अली|Persian
 सखी|Sanskrit
-निष्�|Sanskrit
+निष्�|Sanskrit
 ट्रॉय|English
 प्रशंसा|Sanskrit
 रचित|Sanskrit
@@ -5521,8 +5521,8 @@
 आयोजन|Sanskrit
 घोटाला|Marathi
 वित्त|Sanskrit
-गाँ�|Sauraseni Prakrit
-गाँ�|Sanskrit
+गाँ�|Sauraseni Prakrit
+गाँ�|Sanskrit
 पुस्तकीय|Sanskrit
 बल्ला|Sanskrit
 ग़ज़ब|Persian
@@ -6028,8 +6028,8 @@
 रिपोर्ट|Middle French
 रिपोर्ट|Latin
 जनरल|English
-कनिष्�|Sanskrit
-वरिष्�|Sanskrit
+कनिष्�|Sanskrit
+वरिष्�|Sanskrit
 सवार|Persian
 सवार|Old Persian
 सवार|Proto-Iranian
@@ -7535,7 +7535,7 @@
 प्रतिनिधि|Sanskrit
 मशरूम|English
 संवाद|Sanskrit
-ठे�|Sanskrit
+ठे�|Sanskrit
 कचहरी|Ashokan Prakrit
 कन्हैया|Sanskrit
 आछा|Sanskrit
@@ -7631,8 +7631,8 @@
 कैनबरा|English
 कैनबरा|Ngunawal
 वेलिंग्टन|English
-से�|Sauraseni Prakrit
-से�|Sanskrit
+से�|Sauraseni Prakrit
+से�|Sanskrit
 दोआब|Persian
 मुरदाबाद|Persian
 विस्मय|Sanskrit
@@ -7828,8 +7828,8 @@
 घोलना|Sauraseni Prakrit
 घोलना|Sanskrit
 कुंडली|Sanskrit
-मजी�|Sauraseni Prakrit
-मजी�|Sanskrit
+मजी�|Sauraseni Prakrit
+मजी�|Sanskrit
 ख़बरनवीस|Persian
 प्रतीति|Sanskrit
 सुथरा|Sauraseni Prakrit
@@ -8203,8 +8203,8 @@
 किलोग्राम|English
 छाला|Sauraseni Prakrit
 छाला|Sanskrit
-अवहट्�|Bengali
-अवहट्�|Sanskrit
+अवहट्�|Bengali
+अवहट्�|Sanskrit
 अनस्तित्व|Sanskrit
 अम्मी|Sanskrit
 अरविंद|Sanskrit
@@ -9075,7 +9075,7 @@
 नुमाइश|Persian
 जाँबाज़|Persian
 मनि|Sanskrit
-ज्येष्�|Sanskrit
+ज्येष्�|Sanskrit
 हब्शी|Classical Persian
 हब्शी|Arabic
 गुलदान|Persian
@@ -10016,8 +10016,8 @@
 खलना|Sauraseni Prakrit
 खलना|Sanskrit
 अधुना|Sanskrit
-दी�|Sauraseni Prakrit
-दी�|Sanskrit
+दी�|Sauraseni Prakrit
+दी�|Sanskrit
 प्रावृत्ति|Sanskrit
 उखड़ना|Sauraseni Prakrit
 उखड़ना|Sanskrit
@@ -10134,7 +10134,7 @@
 इंग्लिश|English
 हिंग्लिश|English
 नीवि|Sanskrit
-छ�|Sanskrit
+छ�|Sanskrit
 पैंतरा|Sanskrit
 मसान|Sanskrit
 भाँड़|Sauraseni Prakrit
@@ -10322,8 +10322,8 @@
 बिभास|Sanskrit
 निषाद|Sanskrit
 निखाद|Sanskrit
-सोर�|Gujarati
-सोर�|Punjabi
+सोर�|Gujarati
+सोर�|Punjabi
 वर्धिनि|Kannada
 वर्धिनि|Sanskrit
 हीरक|Sanskrit
