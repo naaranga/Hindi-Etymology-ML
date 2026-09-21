@@ -8,6 +8,16 @@
 #define _GNU_SOURCE
 
 #define FSIZE 295003
+#define WRITEDATA if (*trailer) { \
+        if ((bufConsumption += (addend = prevCmpSize + 3)) >= 16384) { \
+            fwrite(tempFBuf, sizeof(unsigned char), bufConsumption - addend, outp); \
+            bufConsumption = addend; \
+            fBufTrav = tempFBuf; \
+        } \
+        memcpy(fBufTrav, prevNearPtr, prevCmpSize); \
+        memcpy(fBufTrav += prevCmpSize, trailer, sizeof(unsigned char)*3); \
+        fBufTrav += 3; \
+    }
 #define FINDACCEPTABLE { \
         while (1) { \
             while (*(++farPtr) != 0x0D); \
@@ -69,16 +79,7 @@ int main() {
     //for (int i = 0; i < 100; i++) {
     while (1) {
         if ((cmpSize = farPtr-nearPtr) != prevCmpSize || strncmp(prevNearPtr, nearPtr, cmpSize)) {
-            if (*trailer) {
-                if ((bufConsumption += (addend = prevCmpSize + 3)) >= 16384) {
-                    fwrite(tempFBuf, sizeof(unsigned char), bufConsumption - addend, outp);
-                    bufConsumption = addend;
-                    fBufTrav = tempFBuf;
-                }
-                memcpy(fBufTrav, prevNearPtr, prevCmpSize);
-                memcpy(fBufTrav += prevCmpSize, trailer, sizeof(unsigned char)*3);
-                fBufTrav += 3;
-            }
+            WRITEDATA
             postDiscard:
             prevNearPtr = nearPtr;
             *trailer = 0;
@@ -119,14 +120,7 @@ int main() {
         while (*(++farPtr) != 0x7C);
     }
     appendFinal: // might be some logic errors here idk it works
-    if ((bufConsumption += (addend = prevCmpSize + 1)) >= 16384) {
-        fwrite(tempFBuf, sizeof(unsigned char), bufConsumption - addend, outp);
-        bufConsumption = addend;
-        fBufTrav = tempFBuf;
-    }
-    memcpy(fBufTrav, prevNearPtr, prevCmpSize);
-    *(fBufTrav += prevCmpSize) = *trailer;
-    fBufTrav++;
+    WRITEDATA
     terminateCull:
     if (bufConsumption) // unnecessary comparison if appendFinal runs but whatever
         fwrite(tempFBuf, sizeof(unsigned char), bufConsumption, outp);
