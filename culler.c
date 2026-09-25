@@ -124,6 +124,7 @@ int main() {
     terminateCull:
     if (bufConsumption) // unnecessary comparison if appendFinal runs but whatever
         fwrite(tempFBuf, sizeof(unsigned char), bufConsumption, outp);
+    fclose(outp);
     munmap(startPtr, FSIZE);
     close(srcDesc);
     return 0;

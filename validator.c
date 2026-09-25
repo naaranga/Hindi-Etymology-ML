@@ -10,7 +10,7 @@
 
 int main() {
     // shamelessly reusing the mmap sequence from culler.c
-    int srcDesc = open("cullOutp.txt", O_RDONLY);
+    int srcDesc = open("randCullOutp.txt", O_RDONLY);
     if (srcDesc == -1) return 1;
     /*struct stat fs;
     if (fstat(srcDesc, &fs) == -1) { printf("Stat failure\n"); close(srcDesc); return 1; }
@@ -35,8 +35,10 @@ int main() {
                     farU++;
             } else if (cmp <= 0x7F) {
                 if (cmp == 0x0D) {
-                    farU--;
-                    if ((diffU = farU - nearU) <= 0) {
+                    if ((cmp = *(--farU)) != 83 && cmp != 80 && cmp != 69) {
+                        printf("Line %d: Invalid label\n", line);
+                        return 1;
+                    } if ((diffU = farU - nearU) <= 0) {
                         printf("Line %d: Empty/malformed line\n", line);
                         return 1;
                     } else if (diffL == diffU && !strncmp(nearL, nearU, diffL)) {
