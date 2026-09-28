@@ -27,15 +27,18 @@ int main() {
     if (startPtr == MAP_FAILED) { close(srcDesc); return 1; }
     unsigned char *travPtr = startPtr, *endPtr = startPtr + FSIZE, outBuf[8192], *outTrav = outBuf, cullBuf[1024], *cullTrav = cullBuf;
     unsigned int inCounts[128] = {0}, asCounts[128] = {0}, countFC = 0;
+    int maxLen = -1, maxLine, currLen = -1, currLine = 1;
 
     while (1) {
         unsigned char cmp = *travPtr;
         if (cmp == 0xE0) {
             inCounts[((*(travPtr + 1) & 1) << 6) | (*(travPtr + 2) & 0x3F)]++;
             travPtr += 3;
+            currLen++;
         } else if (cmp != 0x0D) {
             asCounts[cmp]++;
             travPtr++;
+            currLen++;
         } else {
             if ((travPtr += 2) == endPtr) {
                 for (int i = 0; i < 64; i++)
@@ -53,9 +56,17 @@ int main() {
                 outp = fopen("culledIndices.txt", "wb");
                 fwrite(cullBuf, sizeof(unsigned char), cullTrav-cullBuf, outp);
                 fclose(outp);
+                printf("%d (Line %d)\n", maxLen, maxLine);
                 munmap(startPtr, FSIZE);
                 close(srcDesc);
                 return 0;
+            } else {
+                if (currLen > maxLen) {
+                    maxLen = currLen;
+                    maxLine = currLine;
+                }
+                currLen = -1;
+                currLine++;
             }
         }
     }
